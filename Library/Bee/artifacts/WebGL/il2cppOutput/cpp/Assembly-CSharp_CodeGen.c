@@ -1,0 +1,113 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void FirstPersonController_Awake_m2AE3AD15F743579C1985EA161AEDA88FD6C30632 (void);
+extern void FirstPersonController_Start_m5940A43B534E90EEEFCB80D38C63BE02B9309171 (void);
+extern void FirstPersonController_Update_m0986ABE7EB54A0B8E271D387E1C92CB3CEDD0748 (void);
+extern void FirstPersonController_FixedUpdate_mCC0D1224F21028D9C7F96A9E4E0598226FBACA71 (void);
+extern void FirstPersonController_CheckGround_mC572B39E1F33C6C3DED7B44EAFF5E5D0FFA6EBE1 (void);
+extern void FirstPersonController_Jump_m9E2F55AA18A8AB6A0817FF2A84E7D5D66D817319 (void);
+extern void FirstPersonController_Crouch_m6F9D56A0BB836ACBC7F9CB651AF5D1034974F987 (void);
+extern void FirstPersonController_HeadBob_m8C0F8585118F0D940A060716DD8761050E7E8C47 (void);
+extern void FirstPersonController__ctor_m709B160DB12615DE3A2A6858F4FFE0CAA1B97002 (void);
+extern void SceneSwitcher_Update_mD90CD9CDAAFE2665196B66C76C0E4BB239DACAC8 (void);
+extern void SceneSwitcher_OnGUI_mE46EEB1030C57CFC1642D1A4C962504FA26E09A8 (void);
+extern void SceneSwitcher__ctor_m286A74582BD4C6059DACBC69C75EE335165E73DA (void);
+extern void SimpleDistanceCulling_Start_mFB587F1997B814B2825945E4F6CCB7E43B3DFB73 (void);
+extern void SimpleDistanceCulling_CullingRoutine_mC41BDE6D02C0C2B903811C075E952EE43D534533 (void);
+extern void SimpleDistanceCulling_OnDrawGizmosSelected_m6696566AE16B9E6EA0975AE49BE7C744076016EE (void);
+extern void SimpleDistanceCulling__ctor_mC18CA02AC3F7C92A606F023668A7D4097945938A (void);
+extern void U3CCullingRoutineU3Ed__6__ctor_m0AE7DF55F3A9F619FA4F0C5F8020C5C1C3DF9E76 (void);
+extern void U3CCullingRoutineU3Ed__6_System_IDisposable_Dispose_m5448450718FF6C883454CFB39A963B3A32A99846 (void);
+extern void U3CCullingRoutineU3Ed__6_MoveNext_m085B5C93EAC0A90876C079FA0D6964A1B490D7DB (void);
+extern void U3CCullingRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m61F1CB5D0A600413A3E531CFC724A04F2E1861D9 (void);
+extern void U3CCullingRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m6EA7B940D5F10BCCF335E69D5F0337344B432D8A (void);
+extern void U3CCullingRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_mB35ADFAF28C2575789BC662BAD7B11043B99A12F (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[24] = 
+{
+	FirstPersonController_Awake_m2AE3AD15F743579C1985EA161AEDA88FD6C30632,
+	FirstPersonController_Start_m5940A43B534E90EEEFCB80D38C63BE02B9309171,
+	FirstPersonController_Update_m0986ABE7EB54A0B8E271D387E1C92CB3CEDD0748,
+	FirstPersonController_FixedUpdate_mCC0D1224F21028D9C7F96A9E4E0598226FBACA71,
+	FirstPersonController_CheckGround_mC572B39E1F33C6C3DED7B44EAFF5E5D0FFA6EBE1,
+	FirstPersonController_Jump_m9E2F55AA18A8AB6A0817FF2A84E7D5D66D817319,
+	FirstPersonController_Crouch_m6F9D56A0BB836ACBC7F9CB651AF5D1034974F987,
+	FirstPersonController_HeadBob_m8C0F8585118F0D940A060716DD8761050E7E8C47,
+	FirstPersonController__ctor_m709B160DB12615DE3A2A6858F4FFE0CAA1B97002,
+	SceneSwitcher_Update_mD90CD9CDAAFE2665196B66C76C0E4BB239DACAC8,
+	SceneSwitcher_OnGUI_mE46EEB1030C57CFC1642D1A4C962504FA26E09A8,
+	SceneSwitcher__ctor_m286A74582BD4C6059DACBC69C75EE335165E73DA,
+	SimpleDistanceCulling_Start_mFB587F1997B814B2825945E4F6CCB7E43B3DFB73,
+	SimpleDistanceCulling_CullingRoutine_mC41BDE6D02C0C2B903811C075E952EE43D534533,
+	SimpleDistanceCulling_OnDrawGizmosSelected_m6696566AE16B9E6EA0975AE49BE7C744076016EE,
+	SimpleDistanceCulling__ctor_mC18CA02AC3F7C92A606F023668A7D4097945938A,
+	U3CCullingRoutineU3Ed__6__ctor_m0AE7DF55F3A9F619FA4F0C5F8020C5C1C3DF9E76,
+	U3CCullingRoutineU3Ed__6_System_IDisposable_Dispose_m5448450718FF6C883454CFB39A963B3A32A99846,
+	U3CCullingRoutineU3Ed__6_MoveNext_m085B5C93EAC0A90876C079FA0D6964A1B490D7DB,
+	U3CCullingRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m61F1CB5D0A600413A3E531CFC724A04F2E1861D9,
+	U3CCullingRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m6EA7B940D5F10BCCF335E69D5F0337344B432D8A,
+	U3CCullingRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_mB35ADFAF28C2575789BC662BAD7B11043B99A12F,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[24] = 
+{
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5422,
+	5323,
+	5422,
+	5422,
+	4282,
+	5422,
+	5230,
+	5323,
+	5422,
+	5323,
+	7991,
+	5422,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	24,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
